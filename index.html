@@ -16,25 +16,29 @@
      rel="stylesheet"    />  
   </head>
   <body>
-    <header class="header">
-        <section class="container">
-            <a class="logo-container" href="index.html"><span class="logo-part-blue">Web</span><span class="logo-part-black">Studio</span></a>
-            <nav class="navigation">
-                <ul class="navigation-list">
-                    <li class="navigation-list-item-agencja">
-                        <a class="navigation-list-link" href="#">Agencja</a>
+    <header>
+        <div class="container">
+          <nav class="navigation">
+            <a class="logo-container link" href="index.html"><span class="logo-part-blue">Web</span><span class="logo-part-black">Studio</span></a>
+            
+                <ul class="navigation-list list">
+                    <li class="navigation-list-item">
+                        <a class="navigation-list-link link" href="#">Agencja</a>
                     </li>
-                    <li class="navigation-list-item-portfolio">
-                        <a class="navigation-list-link" href="portfolio.html">Portfolio</a>
+                    <li class="navigation-list-item">
+                        <a class="navigation-list-link link" href="portfolio.html">Portfolio</a>
                     </li>
-                    <li class="navigation-list-item-kontakt">
-                        <a class="navigation-list-link" href="#">Kontakt</a>
+                    <li class="navigation-list-item">
+                        <a class="navigation-list-link link" href="#">Kontakt</a>
                     </li>
                 </ul>
-            </nav>
-            <a class="contact-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a class="contact-phone" href="tel:48111111111">+48 111 111 111</a>    
-        </section>
+           
+            <ul class="contact-list">
+              <li class="contact-item" href="mailto:info@devstudio.com">info@devstudio.com</li>
+           <li class="contact-item" href="tel:48111111111">+48 111 111 111</li>
+          </nav>
+          </ul>  
+        </div>
     </header>
 
     <main class="main">
@@ -45,13 +49,16 @@
             EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
           </h1>
           <button class="hero-header-btn" type="button">
-            <span class="hero-header-btn-title">Zamów usługe</span>
+            Zamów usługe
           </button>
         </div>
       </section>
 
+<!---DESCRIPTION--->
+
       <section class="main-description">
-        <ul class="main-description-list">
+        <div class="container">
+        <ul class="main-description-list list">
           <li class="main-description-item">
             <p class="main-description-title1">LOREM IPSUM</p>
             <p class="main-description-content1">
@@ -81,13 +88,15 @@
             </p>
           </li>
         </ul>
+      </div>
       </section>
       
-      <!--Czym się zajmujemy-->
+        <!--Czym się zajmujemy-->
+
       <section class="main-what-we-do">
-        <div class="main-what-we-do-space">
+        <div class="container">
           <h2 class="main-what-we-do-header">Czym się zajmujemy</h2>
-          <ul class="main-what-we-do-list">
+          <ul class="main-what-we-do-list list">
             <li class="main-what-we-do-list-item">
               <img
                 class="main-what-we-do-list-image1"
@@ -120,86 +129,99 @@
       </section>
 
       <!--Nasz zespół-->
+
       <section class="team">
+        <div class="container">
         <h2 class="team-header">Nasz zespół</h2>
-        <ul class="team-list">
-          <li class="team-item1">
+        <ul class="team-list list">
+          <li class="team-item">
             <img
-              class="team-image1"
+              class="team-image"
               src="images/main/our_team/img1.jpg"
               alt="John_Doe1"
               width="270"
               height="260"
             />
+            <div class="team-workers">
             <h3 class="team-personal">John Doe</h3>
             <p class="team-personal-position">Product Designer</p>
+          </div>
           </li>
-          <li class="team-item2">
+          <li class="team-item">
             <img
-              class="team-image2"
+              class="team-image"
               src="images/main/our_team/img2.jpg"
               alt="John_Doe2"
               width="270"
               height="260"
             />
+            <div class="team-workers">
             <h3 class="team-personal">John Doe</h3>
             <p class="team-personal-position">Frontend Developer</p>
+          </div>
           </li>
-          <li class="team-item3">
+          <li class="team-item">
             <img
-              class="team-image3"
+              class="team-image"
               src="images/main/our_team/img3.jpg"
               alt="John_Doe3"
               width="270"
               height="260"
             />
+            <div class="team-workers">
             <h3 class="team-personal">John Doe</h3>
             <p class="team-personal-position">Marketing</p>
+          </div>
           </li>
-          <li class="team-item4">
+          <li class="team-item">
             <img
-              class="team-image4"
+              class="team-image"
               src="images/main/our_team/img4.jpg"
               alt="John_Doe4"
               width="270"
               height="260"
             />
+            <div class="team-workers">
             <h3 class="team-personal">John Doe</h3>
             <p class="team-personal-position">UI Designer</p>
+          </div>
           </li>
         </ul>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
-      <a class="logo-footer" href="index.html"
-        ><span class="logo-part-blue">Web</span
+      <div class="container">
+      <a class="logo link" href="index.html"
+        >Web</span
         ><span class="logo-part-white">Studio</span></a
       >
 
       <address class="address">
-        <ul class="address-list">
+        <ul class="address-list list">
           <li class="address-item">
             <a
-              class="address-link-lokalization"
+              class="address-link-lokalization link"
               href="https://goo.gl/maps/x3iuPh3qe1rizQfR7"
               target="_blank"
               >m. Warszawa, Aleje Jerozolimskie 21</a
             >
           </li>
           <li class="address-item">
-            <a class="address-link-mail" href="mailto:info@example.com"
+            <a class="address-link link" href="mailto:info@example.com"
               >info@example.com</a
             >
           </li>
           <li class="address-item">
-            <a class="address-link-phone" href="tel:48111111111"
+            <a class="address-link link" href="tel:48111111111"
               >+48 111 111 111</a
             >
             <div></div>
           </li>
         </ul>
       </address>
+    </div>
     </footer>
   </body>
 </html>
