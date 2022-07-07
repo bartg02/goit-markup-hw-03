@@ -194,7 +194,7 @@ background: #2F303A;
 
       /*DESCRIPTION*/
 
-.main-description{
+.section{
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -257,9 +257,7 @@ margin-bottom: 50px;
     /*Nasz zespół*/
 
 .team{
-    padding-top: 94px;
-  padding-bottom: 94px;
-background: #f5f4fa; 
+background: #F5F4FA; 
      }
     .team-list{
         display: flex;
@@ -349,10 +347,7 @@ background: #f5f4fa;
 /* MAIN */
 /* SECTION FILTER */
 /* THE TEXT CONTENT OF THE BUTTONS */
-.filter{
-    padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 
 .filter-list{
     display: flex;
